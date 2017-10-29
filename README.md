@@ -1,10 +1,15 @@
 # cordova-app-dm108
 
 cordova platform add browser
+
 cordova platform add android
+
 cordova plugin add cordova-plugin-nativestorage
+
 cordova plugin add cordova-plugin-splashscreen
+
 cordova plugin add cordova-plugin-statusbar
+
 cordova plugin add cordova-plugin-firebase@0.1.24 --save
 
 -------------------------------------------------------------
