@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Meu carro vale</title>
+  <!-- Framework7 ios Library CSS-->
+  <link rel="stylesheet" href="dist/css/framework7.ios.min.css">
+  <link rel="stylesheet" href="dist/css/framework7.ios.colors.min.css">
+  <!-- Framework7 material Library CSS-->
+  <link rel="stylesheet" href="dist/css/framework7.material.min.css">
+  <link rel="stylesheet" href="dist/css/framework7.material.colors.min.css">
+  <!-- Path to your custom app styles-->
+  <link rel="stylesheet" href="css/index.css">
+
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, 
+  width=device-width">
+</head>
+
+<body class="theme-deeporange layout-white">
+  <div class="statusbar-overlay"></div>
+  <div class="panel-overlay"></div>
+
+  <div class="views">
+    <div class="view view-main">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="center sliding color-white">Tabela</div>
+        </div>
+      </div>
+
+      <div class="pages">
+        <div data-page="index" class="page">
+          <div class="page-content">
+            <div class="content-block">
+              <div class="content-block-inner">
+                <div class="content-block-title">Marca</div>
+                <div class="list-block marca-list"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="cordova.js"></script>
+  <!-- Framework7 scripts-->
+  <script type="text/javascript" src="dist/js/framework7.min.js"></script>
+  <script type="text/javascript" src="js/add/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <!-- App -->
+  <script type="text/javascript" src="js/model/anoModel.js"></script>
+  <script type="text/javascript" src="js/model/marcaModel.js"></script>
+  <script type="text/javascript" src="js/model/modeloModel.js"></script>
+  <script type="text/javascript" src="js/model/veiculoModel.js"></script>
+  <script type="text/javascript" src="js/controller/veiculoController.js"></script>
+  <script type="text/javascript" src="js/service/veiculoService.js"></script>
+</body>
+
+</html>

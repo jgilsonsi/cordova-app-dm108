@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1042929626802",
+    "firebase_url": "https://meucarrovale-b132d.firebaseio.com",
+    "project_id": "meucarrovale-b132d",
+    "storage_bucket": "meucarrovale-b132d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042929626802:android:a2bdd2e515f2099c",
+        "android_client_info": {
+          "package_name": "com.jgilson.meucarrovale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042929626802-67s8f0v9furvijpmj2leo99b3ah7sdna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_QYNixfrkk-0XNbFFoOWj3Mklo7-Y5yI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

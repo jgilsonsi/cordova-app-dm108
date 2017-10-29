@@ -1,0 +1,34 @@
+{
+    "name": "com.jgilson.meucarrovale",
+    "displayName": "Meu carro vale",
+    "version": "1.0.0",
+    "description": "Consulte o valor do seu carro a qualquer hora.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-browser": "^4.1.0",
+        "cordova-plugin-firebase": "^0.1.24",
+        "cordova-plugin-nativestorage": "^2.2.2",
+        "cordova-plugin-splashscreen": "^4.0.3",
+        "cordova-plugin-statusbar": "^2.2.3",
+        "cordova-plugin-whitelist": "^1.3.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-nativestorage": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-firebase": {}
+        },
+        "platforms": [
+            "android",
+            "browser"
+        ]
+    }
+}
